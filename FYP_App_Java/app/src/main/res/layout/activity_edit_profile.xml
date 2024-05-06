@@ -66,7 +66,7 @@
         android:paddingStart="10dp"
         android:layout_gravity="center"
         android:inputType="textPassword"
-        android:hint="@string/enter_password"
+        android:hint="@string/enter_new_password"
         android:textColorHint="#A0A0A0"
         android:textColor="@color/black"
         android:background="@drawable/edit_text_bg"/>

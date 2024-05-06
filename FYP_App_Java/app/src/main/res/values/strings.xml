@@ -29,4 +29,5 @@
     <string name="save_changes">Save Changes</string>
     <string name="fairy_image">Fairy Image</string>
     <string name="title_activity_edit_profile_redo">Edit_profile_redo</string>
+    <string name="enter_new_password">Enter New Password</string>
 </resources>

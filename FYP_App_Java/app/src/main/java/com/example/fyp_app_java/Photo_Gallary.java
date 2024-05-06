@@ -12,6 +12,7 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.media.ExifInterface;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -104,30 +105,74 @@ public class Photo_Gallary extends AppCompatActivity {
             return new ImageViewHolder(view);
         }
 
-        @Override
-        public void onBindViewHolder(@NonNull ImageViewHolder holder, @SuppressLint("RecyclerView") int position) {
-            // Load image into ImageView using Picasso or Glide
-            String imageUrl = imageUrls.get(position);
-            Picasso.get().load(imageUrl)
-                    .resize(400,400)
-                    .centerCrop()
-                    .rotate(getRotationDegrees(imageUrl))
-                    .into(holder.imageView);
+//        @Override
+//        public void onBindViewHolder(@NonNull ImageViewHolder holder, @SuppressLint("RecyclerView") int position) {
+//            // Load image into ImageView using Picasso or Glide
+//            String imageUrl = imageUrls.get(position);
+//            Picasso.get().load(imageUrl)
+//                    .resize(400,400)
+//                    .centerCrop()
+//                    .rotate(getRotationDegrees(imageUrl))
+//                    .into(holder.imageView);
+//
+//            holder.imageView.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    // Pass imageUrls and position to FullscreenGalleryActivity
+//                    Intent intent = new Intent(v.getContext(), Fullscreen_Gallery.class);
+//                    intent.putStringArrayListExtra("imageUrls", new ArrayList<>(imageUrls));
+//                    intent.putExtra("position", position);
+//                    v.getContext().startActivity(intent);
+//                }
+//            });
+//        }
+//
+//        // Method to get the rotation degrees based on Exif orientation
+//        private int getRotationDegrees(String imageUrl) {
+//            try {
+//                ExifInterface exifInterface = new ExifInterface(imageUrl);
+//                int orientation = exifInterface.getAttributeInt(ExifInterface.TAG_ORIENTATION, ExifInterface.ORIENTATION_NORMAL);
+//                switch (orientation) {
+//                    case ExifInterface.ORIENTATION_ROTATE_90:
+//                        return 90;
+//                    case ExifInterface.ORIENTATION_ROTATE_180:
+//                        return 180;
+//                    case ExifInterface.ORIENTATION_ROTATE_270:
+//                        return 270;
+//                    default:
+//                        return 0;
+//                }
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//                return 0;
+//            }
+//        }
+@Override
+public void onBindViewHolder(@NonNull ImageViewHolder holder, @SuppressLint("RecyclerView") int position) {
+    // Load image into ImageView using Picasso or Glide
+    String imageUrl = imageUrls.get(position);
+    Picasso.get().load(imageUrl)
+            .resize(400,400)
+            .centerCrop()
+            .rotate(90) // Apply a static rotation value (e.g., 90 degrees)
+            //.rotate(getRotationDegrees(imageUrl))
+            .into(holder.imageView);
 
-            holder.imageView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    // Pass imageUrls and position to FullscreenGalleryActivity
-                    Intent intent = new Intent(v.getContext(), Fullscreen_Gallery.class);
-                    intent.putStringArrayListExtra("imageUrls", new ArrayList<>(imageUrls));
-                    intent.putExtra("position", position);
-                    v.getContext().startActivity(intent);
-                }
-            });
+    holder.imageView.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            // Pass imageUrls and position to FullscreenGalleryActivity
+            Intent intent = new Intent(v.getContext(), Fullscreen_Gallery.class);
+            intent.putStringArrayListExtra("imageUrls", new ArrayList<>(imageUrls));
+            intent.putExtra("position", position);
+            v.getContext().startActivity(intent);
         }
+    });
+}
 
         // Method to get the rotation degrees based on Exif orientation
         private int getRotationDegrees(String imageUrl) {
+            Log.d("ImageURL", "Image URL: " + imageUrl); // Log the imageUrl for debugging
             try {
                 ExifInterface exifInterface = new ExifInterface(imageUrl);
                 int orientation = exifInterface.getAttributeInt(ExifInterface.TAG_ORIENTATION, ExifInterface.ORIENTATION_NORMAL);

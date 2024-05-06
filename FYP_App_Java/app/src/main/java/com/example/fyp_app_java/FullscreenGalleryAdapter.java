@@ -34,8 +34,9 @@ public class FullscreenGalleryAdapter extends PagerAdapter {
 
         Picasso.get()
                 .load(imageUrl)
-                .resize(800, 1200)
+                .resize(1200, 800)
                 .centerInside()
+                .rotate(90)
                 .onlyScaleDown() // Only scale down the image, don't scale up
                 .into(imageView);;
 
