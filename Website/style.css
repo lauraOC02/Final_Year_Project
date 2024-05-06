@@ -26,7 +26,7 @@ a {
   background-color: #f2f4e9;
 }
 
-.header-sign-in {
+.header {
   position: absolute;
   width: 1100px;
   height: 50px;
@@ -40,6 +40,7 @@ a {
   height: 44px;
   top: 3px;
   left: 1010px;
+  display: none;
 }
 
 .overlap-group {
@@ -127,6 +128,12 @@ a {
   left: 0;
 }
 
+.logo img {
+  width: 60px; /* Adjust the width of the logo image */
+  height: auto; /* Maintain aspect ratio */
+  float: left; /* Float the logo image to the left */
+}
+
 /* .logo-placeholder {
   position: absolute;
   width: 40px;
@@ -140,7 +147,7 @@ a {
 .logo-text {
   position: absolute;
   top: 0;
-  left: 45px;
+  left: 66px;
   font-family: "Bagnard-Regular", Helvetica;
   font-weight: 400;
   color: #000000;
@@ -367,7 +374,7 @@ a {
 .AR-app .AR-button {
   width: 222px;
   height: 99px;
-  top: 451px;
+  top: 400px;
   position: absolute;
   left: 0;
 }
@@ -435,10 +442,10 @@ a {
 
 .AR-app .image {
   position: absolute;
-  width: 696px;
-  height: 743px;
+  width: 400px;
+  height: auto;
   top: 0;
-  left: 420px;
+  left: 500px;
   object-fit: cover;
 }
 
@@ -547,7 +554,6 @@ a {
   width: 52.96%;
   bottom: 0%;
   top: 17.27%;
-  height: 82.73%;
   object-fit: cover;
 }
 
@@ -652,6 +658,7 @@ a {
   position: absolute;
   top: 0;
   left: 759px;
+  display: none;
 }
 
 .social-media-icon {
@@ -697,6 +704,12 @@ a {
   height: 76px;
   top: 72px;
   left: 81px;
+}
+
+.logo-2 img {
+  width: 80px; /* Adjust the width of the logo image */
+  height: auto; /* Maintain aspect ratio */
+  float: left; /* Float the logo image to the left */
 }
 
 .logo-placeholder-2 {
