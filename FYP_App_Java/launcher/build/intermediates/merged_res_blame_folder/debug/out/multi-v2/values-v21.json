@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.DefaultCompany.FYP_AR_2.launcher-mergeDebugResources-3:/values-v21/values-v21.xml",
+            "map": [
+                {
+                    "source": "/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/build/intermediates/packaged_res/debug/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "8",
+                        "endOffsets": "154"
+                    }
+                }
+            ]
+        }
+    ]
+}

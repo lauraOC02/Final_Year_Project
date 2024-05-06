@@ -1,0 +1,144 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk android:minSdkVersion="23" />
+6-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml
+7
+8    <uses-permission android:name="android.permission.CAMERA" />
+8-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:3:3-63
+8-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:3:20-60
+9
+10    <uses-feature android:glEsVersion="0x00030000" />
+10-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:4:3-52
+10-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:4:17-49
+11    <uses-feature
+11-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:5:3-91
+12        android:name="android.hardware.vulkan.version"
+12-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:5:17-63
+13        android:required="false" />
+13-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:5:64-88
+14    <uses-feature
+14-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:6:3-83
+15        android:name="android.hardware.camera"
+15-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:6:17-55
+16        android:required="false" />
+16-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:6:56-80
+17    <uses-feature
+17-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:7:3-93
+18        android:name="android.hardware.camera.autofocus"
+18-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:7:17-65
+19        android:required="false" />
+19-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:7:66-90
+20    <uses-feature
+20-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:8:3-89
+21        android:name="android.hardware.camera.front"
+21-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:8:17-61
+22        android:required="false" />
+22-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:8:62-86
+23    <uses-feature
+23-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:9:3-88
+24        android:name="android.hardware.touchscreen"
+24-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:9:17-60
+25        android:required="false" />
+25-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:9:61-85
+26    <uses-feature
+26-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:10:3-99
+27        android:name="android.hardware.touchscreen.multitouch"
+27-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:10:17-71
+28        android:required="false" />
+28-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:10:72-96
+29    <uses-feature
+29-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:11:3-108
+30        android:name="android.hardware.touchscreen.multitouch.distinct"
+30-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:11:17-80
+31        android:required="false" />
+31-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:11:81-105
+32
+33    <application android:extractNativeLibs="true" >
+33-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:12:3-27:17
+33-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:12:16-48
+34        <meta-data
+34-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:13:5-69
+35            android:name="unity.splash-mode"
+35-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:13:16-48
+36            android:value="0" />
+36-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:13:49-66
+37        <meta-data
+37-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:14:5-74
+38            android:name="unity.splash-enable"
+38-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:14:16-50
+39            android:value="True" />
+39-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:14:51-71
+40        <meta-data
+40-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:15:5-78
+41            android:name="unity.launch-fullscreen"
+41-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:15:16-54
+42            android:value="True" />
+42-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:15:55-75
+43        <meta-data
+43-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:16:5-81
+44            android:name="notch.config"
+44-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:16:16-43
+45            android:value="portrait|landscape" />
+45-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:16:44-78
+46        <meta-data
+46-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:17:5-84
+47            android:name="unity.auto-report-fully-drawn"
+47-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:17:16-60
+48            android:value="true" />
+48-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:17:61-81
+49
+50        <activity
+50-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:18:5-25:16
+51            android:name="com.unity3d.player.UnityPlayerActivity"
+51-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:18:15-68
+52            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+52-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:18:180-361
+53            android:exported="true"
+53-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:18:433-456
+54            android:hardwareAccelerated="false"
+54-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:18:397-432
+55            android:launchMode="singleTask"
+55-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:18:148-179
+56            android:resizeableActivity="false"
+56-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:18:362-396
+57            android:screenOrientation="fullUser"
+57-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:18:111-147
+58            android:theme="@style/UnityThemeSelector" >
+58-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:18:69-110
+59            <intent-filter>
+59-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:19:7-22:23
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:20:9-69
+60-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:20:19-66
+61
+62                <action android:name="android.intent.action.MAIN" />
+62-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:21:9-61
+62-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:21:17-58
+63            </intent-filter>
+64
+65            <meta-data
+65-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:23:7-82
+66                android:name="unityplayer.UnityActivity"
+66-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:23:18-58
+67                android:value="true" />
+67-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:23:59-79
+68            <meta-data
+68-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:24:7-70
+69                android:name="notch_support"
+69-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:24:18-46
+70                android:value="true" />
+70-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:24:47-67
+71        </activity>
+72
+73        <meta-data
+73-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:26:5-77
+74            android:name="com.google.ar.core"
+74-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:26:16-49
+75            android:value="optional" />
+75-->/Volumes/Extras/Final_Year_Project/FYP_App_Java/unityLibrary/src/main/AndroidManifest.xml:26:50-74
+76    </application>
+77
+78</manifest>

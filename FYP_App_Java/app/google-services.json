@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "229223338812",
+    "firebase_url": "https://fypdatabase-2ba69-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "fypdatabase-2ba69",
+    "storage_bucket": "fypdatabase-2ba69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229223338812:android:27bdc19493266d20b10439",
+        "android_client_info": {
+          "package_name": "com.example.fyp_app_java"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-uKlVB_JthrVHA9naybJMNolu_iDQ-AE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

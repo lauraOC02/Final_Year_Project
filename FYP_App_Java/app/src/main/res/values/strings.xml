@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">FYP_App_Java</string>
+    <string name="register">Register</string>
+    <string name="sign_in">Sign In</string>
+    <string name="fairy">Fairy</string>
+    <string name="back">Back</string>
+    <string name="Parent_Guardian">Ask a Parent or Guardian for help :)</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="view_colouring_in_3d">View Colouring in 3D</string>
+    <string name="stories">Stories</string>
+    <string name="view_photos">View Photos</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="Fairy_Audio">Fairy (Tuatha de Danann) Story</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="restart">Restart</string>
+    <string name="user">User</string>
+    <string name="hello">Hello\u0020</string>
+    <string name="smileyFace">! :)</string>
+    <string name="cancel">Cancel</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="fairy_image">Fairy Image</string>
+    <string name="title_activity_edit_profile_redo">Edit_profile_redo</string>
+</resources>
